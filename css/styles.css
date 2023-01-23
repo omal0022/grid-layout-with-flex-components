@@ -16,7 +16,7 @@ body {
     border: 1px solid #222;
     border-radius: 8px;
     padding: 1rem;
-    justify-content: flex-end;
+    justify-content: space-between;
 
   }
   
@@ -31,10 +31,12 @@ body {
     color: white;
     padding: 1rem;
     border-radius: 8px;
-    margin-top: auto;
-  }
+   }
 
-  
+.emoji p {
+  flex-grow: 1; 
+}
+
   .icon {
     font-size: 4rem;
     align-self: center;
